@@ -8,12 +8,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Active Box</title>
+
+  <!-- Remotes Styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Project Styles -->
+  <link rel="stylesheet" href="styles/globals.css">
+  <link rel="stylesheet" href="styles/home.css">
 </head>
 
 <body>
 
-  <header>
-      <img src="" alt="Active Box Logo">
+  <header class="container">
+
+    <section class="header">
+      <img class="logo" src="images/logo.png" alt="Active Box Logo">
 
       <nav>
         <a href="#">Feactures</a>
@@ -22,26 +32,27 @@
         <a href="#">Testimonials</a>
         <a href="#">Downloads</a>
       </nav>
+    </section>
+
+      <section class="masterHeader">
+        <h1>Your favorite one page multi purpose template</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
+
+        <a href="#" class="button">Find out more</a>
+      </section>
   </header>
 
   <main>
 
-    <section>
-      <h1>Your favorite one page multi purpose template</h1>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
-
-      <a href="" class="button">Find out more</a>
-    </section>
-
-    <section>
+    <section class="benefits container">
 
       <!-- This title is for accessibility only -->
       <h4 class="hiddenElement">Benefits</h4>
 
       <ul>
         <li>
-          <img src="" alt="Design Icon">
+          <img src="images/design.png" alt="Design Icon">
 
           <h3>Easily customizable</h3>
 
@@ -54,7 +65,7 @@
         </li>
 
         <li>
-          <img src="" alt="Screen Icon">
+          <img src="images/screen.png" alt="Screen Icon">
 
           <h3>Responsive ready</h3>
 
@@ -67,7 +78,7 @@
         </li>
 
         <li>
-          <img src="" alt="Lampada Icon">
+          <img src="images/light_bulb.png" alt="Lampada Icon">
 
           <h3>Modern design</h3>
 
@@ -80,7 +91,7 @@
         </li>
 
         <li>
-          <img src="" alt="Atomic Icon">
+          <img src="images/atomic.png" alt="Atomic Icon">
 
           <h3>Clean code</h3>
 
@@ -93,7 +104,7 @@
         </li>
 
         <li>
-          <img src="" alt="Work Icon">
+          <img src="images/work.png" alt="Work Icon">
 
           <h3>Ready to ship</h3>
 
@@ -106,7 +117,7 @@
         </li>
 
         <li>
-          <img src="" alt="Download Icon">
+          <img src="images/download.png" alt="Download Icon">
 
           <h3>Download for free</h3>
 
@@ -121,10 +132,10 @@
 
     </section>
 
-    <section>
+    <section class="mosaic">
 
       <!-- This title is for accessibility only -->
-      <h4 class="hiddenElement">Images grider</h4>
+      <h4 class="hiddenElement">Mosaic Images</h4>
 
       <ul>
         <li>
@@ -133,7 +144,7 @@
             <p>User interface design</p>
           </div>
 
-          <img src="" alt="">
+          <img src="images/mosaic1.png" alt="Mosaic Image">
         </li>
 
         <li>
@@ -142,7 +153,7 @@
             <p>User interface design</p>
           </div>
 
-          <img src="" alt="">
+          <img src="images/mosaic2.png" alt="Mosaic Image">
         </li>
 
         <li>
@@ -151,7 +162,7 @@
             <p>User interface design</p>
           </div>
 
-          <img src="" alt="">
+          <img src="images/mosaic3.png" alt="Mosaic Image">
         </li>
 
         <li>
@@ -160,7 +171,7 @@
             <p>User interface design</p>
           </div>
 
-          <img src="" alt="">
+          <img src="images/mosaic4.png" alt="Mosaic Image">
         </li>
 
         <li>
@@ -169,7 +180,7 @@
             <p>User interface design</p>
           </div>
 
-          <img src="" alt="">
+          <img src="images/mosaic5.png" alt="Mosaic Image">
         </li>
 
         <li>
@@ -178,157 +189,167 @@
             <p>User interface design</p>
           </div>
 
-          <img src="" alt="">
+          <img src="images/mosaic7.png" alt="Mosaic Image">
+        </li>
+
+        <li>
+          <div class="hoverDiv">
+            <h4>Project name</h4>
+            <p>User interface design</p>
+          </div>
+
+          <img src="images/mosaic8.png" alt="Mosaic Image">
+        </li>
+
+        <li>
+          <div class="hoverDiv">
+            <h4>Project name</h4>
+            <p>User interface design</p>
+          </div>
+
+          <img src="images/mosaic6.png" alt="Mosaic Image">
         </li>
       </ul>
     </section>
 
-    <section>
+    <section class="members container">
 
       <!-- This title is for accessibility only -->
       <h4 class="hiddenElement">Members</h4>
 
-      <div class="membersItems">
-        <img src="" alt="Ruth Woods Picture">
+      <div>
+        <img src="images/ruth.png" alt="Ruth Woods Picture">
 
         <h2>Ruth Woods</h2>
         <span>Founder, CEO</span>
 
         <p>
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-          ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravid
-          at eget metus. Maecenas faucibus mollis interdum. Cras justo odio, dapibus
-          ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare
-          sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet
-          rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.
+          ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus
+          varius blandit sit amet non magna. Nulla, quis risus eget urna mollis
+          ornare vel eu leo.
         </p>
 
         <ul>
           <li>
-            <a href=""
-            ><img src="" alt="Facebook: Ruth Woods">
-          </a>
-          </li>
-
-          <li>
             <a href="">
-              <img src="" alt="Twitter: Ruth Woods">
+              <img src="images/facebook.svg" alt="Facebook: Ruth Woods">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="LinkedIn: Ruth Woods">
+              <img src="images/twitter.svg" alt="Twitter: Ruth Woods">
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              <img src="images/linkedin.svg" alt="LinkedIn: Ruth Woods">
             </a>
           </li>
         </ul>
 
       </div>
 
-      <div class="membersItems">
-        <img src="" alt="Timothy Reed Picture">
+      <div>
+        <img src="images/timothy.png" alt="Timothy Reed Picture">
 
         <h2>Timothy Reed</h2>
         <span>Co-Founder, Developer</span>
 
         <p>
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-          ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravid
-          at eget metus. Maecenas faucibus mollis interdum. Cras justo odio, dapibus
-          ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare
-          sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet
-          rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.
+          ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus
+          varius blandit sit amet non magna. Nulla, quis risus eget urna mollis
+          ornare vel eu leo.
         </p>
 
         <ul>
           <li>
             <a href="">
-              <img src="" alt="Facebook: Timothy Reed">
+              <img src="images/facebook.svg" alt="Facebook: Timothy Reed">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="Twitter: Timothy Reed">
+              <img src="images/twitter.svg" alt="Twitter: Timothy Reed">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="LinkedIn: Timothy Reed">
+              <img src="images/linkedin.svg" alt="LinkedIn: Timothy Reed">
             </a>
           </li>
         </ul>
 
       </div>
 
-      <div class="membersItems">
-        <a href=""><img src="" alt="Victoria Valdez Picture"></a>
+      <div>
+        <img src="images/victoria.png" alt="Victoria Valdez Picture">
 
         <h2>Victoria Valdez</h2>
         <span>UI Designer</span>
 
         <p>
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-          ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravid
-          at eget metus. Maecenas faucibus mollis interdum. Cras justo odio, dapibus
-          ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare
-          sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet
-          rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.
+          ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus
+          varius blandit sit amet non magna. Nulla, quis risus eget urna mollis
+          ornare vel eu leo.
         </p>
 
         <ul>
           <li>
             <a href="">
-              <img src="" alt="Facebook: Victoria Valdez">
+              <img src="images/facebook.svg" alt="Facebook: Victoria Valdez">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="Twitter: Victoria Valdez">
+              <img src="images/twitter.svg" alt="Twitter: Victoria Valdez">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="LinkedIn: Victoria Valdez">
+              <img src="images/linkedin.svg" alt="LinkedIn: Victoria Valdez">
             </a>
           </li>
         </ul>
       </div>
 
-      <div class="membersItems">
-        <img src="" alt="Ruth Woods Picture">
+      <div>
+        <img src="images/beverly.png" alt="Beverly Litte Picture">
 
         <h2>Beverly Litte</h2>
         <span>Data Science</span>
 
         <p>
           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-          ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravid
-          at eget metus. Maecenas faucibus mollis interdum. Cras justo odio, dapibus
-          ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare
-          sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet
-          rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.
+          ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus
+          varius blandit sit amet non magna. Nulla, quis risus eget urna mollis
+          ornare vel eu leo.
         </p>
 
         <ul>
           <li>
             <a href="">
-              <img src="" alt="Facebook: Beverly Litte">
+              <img src="images/facebook.svg" alt="Facebook: Beverly Litte">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="Twitter: Beverly Litte">
+              <img src="images/twitter.svg" alt="Twitter: Beverly Litte">
             </a>
           </li>
 
           <li>
             <a href="">
-              <img src="" alt="LinkedIn: Beverly Litte">
+              <img src="images/linkedin.svg" alt="LinkedIn: Beverly Litte">
             </a>
           </li>
         </ul>

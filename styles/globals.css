@@ -1,0 +1,50 @@
+/* Resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Vars */
+:root {
+  --blue: #2b2e4a;
+  --white: #fff;
+  --gray: #ccccd3;
+  --red: #e84545;
+}
+
+/* Globals Class */
+
+.container {
+  width: 100%;
+  padding: 0 21rem;
+}
+
+.button {
+  padding: 1rem 3.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.hiddenElement {
+  display: none;
+}
