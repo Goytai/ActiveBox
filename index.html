@@ -11,7 +11,7 @@
 
   <!-- Remotes Styles -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Project Styles -->
   <link rel="stylesheet" href="styles/globals.css">
@@ -20,9 +20,9 @@
 
 <body>
 
-  <header class="container">
+  <header>
 
-    <section class="header">
+    <section class="header container">
       <img class="logo" src="images/logo.png" alt="Active Box Logo">
 
       <nav>
@@ -34,7 +34,7 @@
       </nav>
     </section>
 
-      <section class="masterHeader">
+      <section class="masterHeader container">
         <h1>Your favorite one page multi purpose template</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
@@ -358,73 +358,34 @@
 
     </section>
 
-    <section>
+    <section class="depositions">
 
       <!-- This title is for accessibility only -->
       <h4 class="hiddenElement">Depositions</h4>
 
-      <ul>
+      <ul class="container">
 
         <li>
-          <img src="" alt="Person picture">
+          <img src="images/person1.png" alt="Person picture">
 
           <div>
-            <p>
+            <h2>
               Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-              Donec sed odio dui. Aenean eu leo quam lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam.
-            </p>
+              Donec sed odio dui. Aenean eu leo quam ...
+            </h2>
 
             <span>Susan Sims, Interaction designer at xyz</span>
           </div>
         </li>
 
         <li>
-          <img src="" alt="Person picture">
+          <img src="images/person2.png" alt="Person picture">
 
           <div>
-            <p>
+            <h2>
               Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-              Donec sed odio dui. Aenean eu leo quam lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam.
-            </p>
-
-            <span>Susan Sims, Interaction designer at xyz</span>
-          </div>
-        </li>
-
-        <li>
-          <img src="" alt="Person picture">
-
-          <div>
-            <p>
-              Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-              Donec sed odio dui. Aenean eu leo quam lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam.
-            </p>
-
-            <span>Susan Sims, Interaction designer at xyz</span>
-          </div>
-        </li>
-
-        <li>
-          <img src="" alt="Person picture">
-
-          <div>
-            <p>
-              Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-              Donec sed odio dui. Aenean eu leo quam lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam.
-            </p>
-
-            <span>Susan Sims, Interaction designer at xyz</span>
-          </div>
-        </li>
-
-        <li>
-          <img src="" alt="Person picture">
-
-          <div>
-            <p>
-              Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-              Donec sed odio dui. Aenean eu leo quam lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam.
-            </p>
+              Donec sed odio dui. Aenean eu leo quam ...
+            </h2>
 
             <span>Susan Sims, Interaction designer at xyz</span>
           </div>
@@ -434,55 +395,57 @@
 
     </section>
 
-    <section>
+    <section class="download container">
       <h2>Are you to start ? Download now for free!</h2>
       <p>Fusce dapibus, tellus ac cursus commodo</p>
       <a href="" class="button">Download Here</a>
     </section>
 
-    <section>
+    <section class="contacts">
 
       <!-- This title is for accessibility only -->
       <h4 class="hiddenElement">Contacts</h4>
 
-      <aside>
-        <h3>Location</h3>
-        <p>3481 Melrose Place</p>
-        <p>Beverly Hills, CA 90210</p>
-      </aside>
+      <div class="container">
+        <aside>
+          <h3>Location</h3>
+          <p>3481 Melrose Place</p>
+          <p>Beverly Hills, CA 90210</p>
+        </aside>
 
-      <article>
-        <h3>Share whith love</h3>
-        <ul>
+        <article>
+          <h3>Share whith love</h3>
+          <ul>
 
-          <li>
-            <a href="">
-              <img src="" alt="Facebook Link">
-            </a>
-          </li>
+            <li>
+              <a href="">
+                <img src="images/facebook.svg" alt="Facebook Link">
+              </a>
+            </li>
 
-          <li>
-            <a href="">
-              <img src="" alt="Twitter Link">
-            </a>
-          </li>
+            <li>
+              <a href="">
+                <img src="images/twitter.svg" alt="Twitter Link">
+              </a>
+            </li>
 
-          <li>
-            <a href="">
-              <img src="" alt="LinkedIn Link">
-            </a>
-          </li>
+            <li>
+              <a href="">
+                <img src="images/linkedin.svg" alt="LinkedIn Link">
+              </a>
+            </li>
 
-        </ul>
-      </article>
+          </ul>
+        </article>
 
-      <aside>
-        <h3>About ActiveBox</h3>
-        <p>
-          Cras justo odio, dapibus ac facilisis in, egestas eget
-          quam. Donec ullamcorper nulla non metus auctor fringilla.
-        </p>
-      </aside>
+        <aside>
+          <h3>About ActiveBox</h3>
+          <p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget
+            quam. Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+        </aside>
+      </div>
 
     </section>
 
@@ -490,12 +453,14 @@
 
   <footer>
     <p>
-      Copyright &copy; 2015 ActiveBox. All rights reserved
+      Copyright &copy; 2015 ActiveBox. All rights reserved<br>
+      Made whith &#128151 <span>by Nathan Vieira</span>
     </p>
-    <span>
-      Made whith &#128151 by Goytai
-    </span>
   </footer>
+
+
+  <!-- My scripts -->
+  <script src="js/index.js"></script>
 
 </body>
 

@@ -25,24 +25,38 @@ ul {
 
 /* Vars */
 :root {
+  --bluelight: #3a3e64;
   --blue: #2b2e4a;
+  --darkblue: #313454;
   --white: #fff;
-  --gray: #ccccd3;
+  --gray0: #f1f1f3;
+  --gray1: #e4e4e8;
+  --gray2: #ccccd3;
+  --gray3: #6c7279;
+  --gray4: #9d9fb2;
+  --gray5: #808080;
+  --wine: #53354a;
   --red: #e84545;
 }
 
 /* Globals Class */
 
 .container {
-  width: 100%;
-  padding: 0 21rem;
+  width: 73.125rem;
+  margin-inline: auto auto;
 }
 
 .button {
   padding: 1rem 3.5rem;
   font-size: 0.8125rem;
   font-weight: 600;
-  border-radius: 2px;
+  border-radius: 0.125rem;
+  text-transform: uppercase;
+  transition: .3s box-shadow;
+}
+
+.button:hover {
+  box-shadow: inset 0 0 1.25rem rgba(0,0,0,0.5);
 }
 
 .hiddenElement {
