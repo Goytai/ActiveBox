@@ -363,13 +363,13 @@
       <!-- This title is for accessibility only -->
       <h4 class="hiddenElement">Depositions</h4>
 
-      <ul class="container">
+      <ul class="" id="slider">
 
         <li>
           <img src="images/person1.png" alt="Person picture">
 
           <div>
-            <h2>
+            <h2 onclick="Slider.changeSlider()">
               Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
               Donec sed odio dui. Aenean eu leo quam ...
             </h2>
@@ -378,20 +378,53 @@
           </div>
         </li>
 
-        <li>
+        <li class="none">
           <img src="images/person2.png" alt="Person picture">
 
           <div>
-            <h2>
+            <h2 onclick="Slider.changeSlider()">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc augue odio, pharetra vel nunc in, volutpat scelerisque ligula...
+            </h2>
+
+            <span>Ronald, CEO of IBM</span>
+          </div>
+        </li>
+
+        <li class="none">
+          <img src="images/person1.png" alt="Person picture">
+
+          <div>
+            <h2 onclick="Slider.changeSlider()">
               Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
               Donec sed odio dui. Aenean eu leo quam ...
             </h2>
 
             <span>Susan Sims, Interaction designer at xyz</span>
+          </div>
+        </li>
+
+        <li class="none">
+          <img src="images/person2.png" alt="Person picture">
+
+          <div>
+            <h2 onclick="Slider.changeSlider()">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc augue odio, pharetra vel nunc in, volutpat scelerisque ligula...
+            </h2>
+
+            <span>Ronald, CEO of IBM</span>
           </div>
         </li>
 
       </ul>
+
+      <ol id="controller">
+        <li data-active="true"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
 
     </section>
 
