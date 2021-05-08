@@ -42,7 +42,7 @@ Acess the folder:
 $ cd ActiveBox
 ```
 
-Open the HTMl File in your browser.
+Open the HTML File in your browser.
 
 ------------
 <h2>📝 License</h2>
